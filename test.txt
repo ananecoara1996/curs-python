@@ -2,4 +2,7 @@ Curs Python
 
 GitHub prezentare
 
-Comenzi GitHub
+Comenzi GitHub 
+
+1. git init
+2. git commit
