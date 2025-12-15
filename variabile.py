@@ -79,7 +79,20 @@ print (42-8)
 print (2**4)
 
 
-x = int(input('Valoarea lui x este: ' ))
-y = int(input('Valoarea lui y este: '))
-print (x, y)
-print (x+y)
+#x = int(input('Valoarea lui x este: ' ))
+#y = int(input('Valoarea lui y este: '))
+#print (x, y)
+#print (x+y)
+
+
+#nume = input ('introduceti un nume: ')
+#print ('Salut, ', nume)
+
+varsta = input ('introduceti varsta:')
+print('Ana are' , varsta,  'ani')
+
+
+numar1 = input ('Numar1:')
+numar2 = input ( 'Numar2:')
+
+suma = int(numar1) 
