@@ -77,5 +77,9 @@ print (42-8)
 #print('Salut, ' + name)
 
 print (2**4)
-grecesc = "αβγδεζηθικλμνξοπρςστυφχψ"
-print(grecesc)
+
+
+x = int(input('Valoarea lui x este: ' ))
+y = int(input('Valoarea lui y este: '))
+print (x, y)
+print (x+y)
