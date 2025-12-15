@@ -13,9 +13,9 @@ diferenta = (x-y)-(x+y)
 print(diferenta)
 
 
-x = 10 
-y = input("y")
-print (x + int(y))
+#x = 10 
+#y = input("y")
+#print (x + int(y))
 
 
 var1 = 5
