@@ -1,0 +1,8 @@
+{
+    "editor.inlineSuggest.experimental.emptyResponseInformation": false,
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.suggest.showWords": false,
+    "editor.suggest.matchOnWordStartOnly": false
+}
