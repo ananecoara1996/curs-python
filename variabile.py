@@ -96,3 +96,12 @@ numar1 = input ('Numar1:')
 numar2 = input ( 'Numar2:')
 
 suma = int(numar1) 
+
+x = y = z = 4
+print(x, y, z)
+
+x = 'Welcome'
+print(x[3:5])
+
+x = range(6)
+
