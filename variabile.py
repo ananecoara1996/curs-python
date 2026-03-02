@@ -1,107 +1,120 @@
-from re import U
+# from re import U
+
+# varsta = "Treizeci de ani " 
+# print (varsta)
+
+# variabila_a = 10 
+# variabila_b = 20
+
+# suma = variabila_a + variabila_b
+# produs = variabila_a * variabila_b
+
+# variabila_c = input("Pune o valoare pentru variabila c: ")
+
+# print (variabila_a + variabila_b)
+
+# nume_familie = 'Necoara '
+# prenume_cursant = 'Ana-Maria'
+
+# print (nume_familie + prenume_cursant)
+
+# var1 = 10
+# var2 = "test"
+# var3 = 7.3
+# var4 = True
+
+# var_type = type(var1)
+# print(var_type)
+# var_type = type(var2)
+# print(var_type)
+# var_type = type(var3)
+# print(var_type)
+# var_type = type(var4)
+# print(var_type)
 
 
-varsta = "Treizeci de ani " 
-print (varsta)
+# var = "10"
+# print(var)
+# print (type(var))
 
-variabila_a = 10 
-variabila_b = 20
+# var = int(var)
+# print(var)
+# print (type(var))
 
-print (variabila_a+variabila_b)
+# var = float(var)
+# print(var)
+# print (type(var))
 
-nume_familie = 'Necoara '
-prenume_cursant = 'Ana-Maria'
+# var1 = "10"
+# var2 = "30"
 
-print (nume_familie + prenume_cursant)
+# rezultat = var1 +var2
+# print (rezultat)
 
-var1 = 10
-var2 = "test"
-var3 = 7.3
-var4 = True
+# var7 = 10
+# var8 = 10.5 
 
-var_type = type(var1)
-print(var_type)
-var_type = type(var2)
-print(var_type)
-var_type = type(var3)
-print(var_type)
-var_type = type(var4)
-print(var_type)
+# print (var7 + int(var8))
+# print (type(var7 + int(var8)))
 
+# vari1 = ''  #string gol -> duce la False 
+# vari2 = 'ce frumos'
 
-var = "10"
-print(var)
-print (type(var))
+# vari1 = bool(vari1)
+# vari2 = bool(vari2)
 
-var = int(var)
-print(var)
-print (type(var))
+# print (vari1)
+# print (vari2)
 
-var = float(var)
-print(var)
-print (type(var))
+# print ('Hello world! Python is cool!')
 
-var1 = "10"
-var2 = "30"
+# print (92%3)
+# print (9**6)
 
-rezultat = var1 +var2
-print (rezultat)
+# print (99/7)
+# print (99//7)
 
-var7 = 10
-var8 = 10.5 
+# print (7 * (12-6) - 2**3)
+# print (42-8)
 
-print (var7+int(var8))
-print (type(var7+int(var8)))
+# #name = input ("Care este numele tau? ")
+# #print('Salut, ' + name)
 
-vari1 = ''  #string gol -> duce la False 
-vari2 = 'ce frumos'
-
-vari1 = bool(vari1)
-vari2 = bool(vari2)
-
-print (vari1)
-print (vari2)
-
-print ('Hello world! Python is cool!')
-
-print (92%3)
-print (9**6)
-
-print (99/7)
-print (99//7)
-
-print (7 * (12-6) - 2**3)
-print (42-8)
-
-#name = input ("Care este numele tau? ")
-#print('Salut, ' + name)
-
-print (2**4)
+# print (2**4)
 
 
-#x = int(input('Valoarea lui x este: ' ))
-#y = int(input('Valoarea lui y este: '))
-#print (x, y)
-#print (x+y)
+# #x = int(input('Valoarea lui x este: ' ))
+# #y = int(input('Valoarea lui y este: '))
+# #print (x, y)
+# #print (x+y)
 
 
-#nume = input ('introduceti un nume: ')
-#print ('Salut, ', nume)
+# #nume = input ('introduceti un nume: ')
+# #print ('Salut, ', nume)
 
-varsta = input ('introduceti varsta:')
-print('Ana are' , varsta,  'ani')
+# varsta = input ('introduceti varsta:')
+# print('Ana are' , varsta,  'ani')
 
 
-numar1 = input ('Numar1:')
-numar2 = input ( 'Numar2:')
+# numar1 = input ('Numar1:')
+# numar2 = input ( 'Numar2:')
 
-suma = int(numar1) 
+# suma = int(numar1) 
 
-x = y = z = 4
-print(x, y, z)
+# x = y = z = 4
+# print(x, y, z)
 
-x = 'Welcome'
-print(x[3:5])
+# x = 'Welcome'
+# print(x[3:5])
 
-x = range(6)
+# x = range(6)
 
+numar = "123"
+numar_int = int(numar)     # conversie la int
+print(numar_int)
+numar_float = float(numar) # conversie la float
+print(numar_float)
+numar_str = str(numar) # conversie la string
+print(numar_str)
+valoare_bool = bool(0)     # False
+valoare_bool2 = bool(1)    # True

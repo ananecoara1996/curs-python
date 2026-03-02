@@ -45,7 +45,7 @@
 
 # print(my_str.capitalize())
 
-my_str = 'Arad Arad 30'
+# my_str = 'Arad Arad 30'
 # my_str.replace('Arad', 'Timisoara')
 # print(my_str.replace('Arad', 'Timisoara'))
 # print(my_str)
@@ -65,8 +65,8 @@ my_str = 'Arad Arad 30'
 # print(var1)
 # print(var2)
 
-var = 'Daniel Andrei Ioan'
-print(var)
+# var = 'Daniel Andrei Ioan'
+# print(var)
 # print(var.rstrip())
 
 
@@ -77,12 +77,87 @@ print(var)
 # new_string = ' '.join(my_list)  
 # print(new_string)
 
-print(var.startswith('D'))
-print(var.endswith('Ioa'))
+# print(var.startswith('D'))
+# print(var.endswith('Ioa'))
 
-print('Daniel'.isalpha())
-print('123'.isdigit())
+# print('Daniel'.isalpha())
+# print('123'.isdigit())
 
-poezie = "'Ana' are \tmulte mere,\nIonel vine \"si\" cere"
-print(poezie)
+# poezie = "'Ana' are \tmulte mere,\nIonel vine \"si\" cere"
+# print(poezie)
 
+
+
+text = 'Afara este frig, dar o sa fie si vreme buna! '
+text_aparitie = text.count('a')
+print(f"Litera 'a' apare de fix {text_aparitie} ori")
+
+lungime_text = len(text)
+print(lungime_text)
+
+print(text.count('a', 10, 45))
+
+
+day = 8
+match day:
+  case 1:
+    print("Monday")
+  case 2:
+    print("Tuesday")
+  case 3:
+    print("Wednesday")
+  case 4:
+    print("Thursday")
+  case 5:
+    print("Friday")
+  case 6:
+    print("Saturday")
+  case 7:
+    print("Sunday")
+  case 8:
+    print("Check again!")
+
+
+numar = 1
+while numar < 6:
+  print(numar)
+  numar += 1
+
+i = 1
+while i < 6:
+  print(i)
+  if (i == 4):
+    break
+  i += 1
+
+
+  #Calculul Ariei: Scrie o funcție care primește lungimea laturii unui pătrat și returnează aria acestuia.
+
+  def calculeaza_aria(latura):
+    aria = latura ** 2
+    return aria
+  
+rezultat = calculeaza_aria(5)
+
+print(f"Aria patratului este: {rezultat}")
+
+
+#Convertor de Temperatură: Creează două funcții: una care transformă gradele Celsius în Fahrenheit și alta invers.
+
+#Formula: temp_Fahrenheit = (grade_Celsius * float(1.8)) + 32
+
+
+def temperatura_Celsius(grade_Celsius):
+    temp_Fahrenheit = (grade_Celsius * float(1.8)) + 32
+    return temp_Fahrenheit
+
+
+rezultat_Fahrenheit = temperatura_Celsius(20)
+print(f"Temperatura in Fahrenheit este: {rezultat_Fahrenheit}")
+
+def temperatura_Fahrenheit(grade_Fahrenheit):
+  temp_Celsius = float((grade_Fahrenheit - 32) / 1.8)
+  return temp_Celsius 
+
+rezultat_Celsius = temperatura_Fahrenheit(68)
+print(f"Temperatura in grade Celsius este: {rezultat_Celsius}")

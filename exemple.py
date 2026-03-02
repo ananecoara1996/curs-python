@@ -56,3 +56,6 @@ print(numere[-1])
 print(numere[:3]) # afiseaza de la primul numar pana la pozitia 3, dar fara acesta
 print(numere[2:]) # afiseaza de la pozitia 2 pna la final
 print(type(numere))
+
+
+n = input ("Valoarea lui n este:" )

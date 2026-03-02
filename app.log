@@ -1,0 +1,32 @@
+2026-02-26 19:23:58,543 - INFO - logging_traceback.py - 51 - Procesare finalizata
+2026-02-26 19:23:58,543 - INFO - logging_traceback.py - 42 - incepere procesare
+2026-02-26 19:23:58,543 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 10
+2026-02-26 19:23:58,543 - DEBUG - logging_traceback.py - 50 - Processinf result: 5.0
+2026-02-26 19:23:58,543 - WARNING - logging_traceback.py - 45 - Valoare negativa -5 la pozitia 1
+2026-02-26 19:23:58,543 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 5
+2026-02-26 19:23:58,543 - DEBUG - logging_traceback.py - 50 - Processinf result: 2.5
+2026-02-26 19:23:58,543 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 12
+2026-02-26 19:23:58,543 - DEBUG - logging_traceback.py - 50 - Processinf result: 6.0
+2026-02-26 19:23:58,545 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 20
+2026-02-26 19:23:58,545 - DEBUG - logging_traceback.py - 50 - Processinf result: 10.0
+2026-02-26 19:23:58,546 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 30
+2026-02-26 19:23:58,546 - DEBUG - logging_traceback.py - 50 - Processinf result: 15.0
+2026-02-26 19:23:58,546 - WARNING - logging_traceback.py - 45 - Valoare negativa -6 la pozitia 6
+2026-02-26 19:24:14,097 - INFO - logging_traceback.py - 51 - Procesare finalizata
+2026-02-26 19:24:14,097 - INFO - logging_traceback.py - 42 - incepere procesare
+2026-02-26 19:24:14,097 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 10
+2026-02-26 19:24:14,097 - DEBUG - logging_traceback.py - 50 - Processing result: 5.0
+2026-02-26 19:24:14,097 - WARNING - logging_traceback.py - 45 - Valoare negativa -5 la pozitia 1
+2026-02-26 19:24:14,097 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 5
+2026-02-26 19:24:14,097 - DEBUG - logging_traceback.py - 50 - Processing result: 2.5
+2026-02-26 19:24:14,097 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 12
+2026-02-26 19:24:14,098 - DEBUG - logging_traceback.py - 50 - Processing result: 6.0
+2026-02-26 19:24:14,098 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 20
+2026-02-26 19:24:14,098 - DEBUG - logging_traceback.py - 50 - Processing result: 10.0
+2026-02-26 19:24:14,098 - DEBUG - logging_traceback.py - 47 - Valoarea citita: 30
+2026-02-26 19:24:14,098 - DEBUG - logging_traceback.py - 50 - Processing result: 15.0
+2026-02-26 19:24:14,098 - WARNING - logging_traceback.py - 45 - Valoare negativa -6 la pozitia 6
+2026-02-26 19:50:23,655 - INFO - logging_traceback.py - 52 - Procesare finalizata
+2026-02-26 19:50:23,655 - INFO - logging_traceback.py - 42 - incepere procesare
+2026-02-26 19:50:23,656 - DEBUG - logging_traceback.py - 48 - Valoarea citita: 10
+2026-02-26 19:50:23,656 - DEBUG - logging_traceback.py - 51 - Processing result: 5.0
